@@ -1,6 +1,7 @@
 # Retrofit2.0使用
 
-##三种convert
+####三种convert
+ **1、convert **
 
 1. [fastjson](https://github.com/iloveaman/Retrofit2.0/tree/master/app/src/main/java/xb/com/retrofit/convert/fastjson)
 
@@ -12,10 +13,7 @@
 			
 		将服务器返回结果转换成字符串
 
-
--------------------
-
-## 使用方法
+**2、使用方法 **
 
 ```
  Retrofit.Builder builder = new Retrofit.Builder()
@@ -25,4 +23,4 @@
 						.addConverterFactory(FastJsonConvertFactory.create());
 						
 ```
-三者可共同使用,根据传入的类型返回相应的类型。
+	  三者可共同使用,根据传入的类型返回相应的类型。
