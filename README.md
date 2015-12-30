@@ -20,9 +20,9 @@
 ```
  Retrofit.Builder builder = new Retrofit.Builder()
                         .baseUrl(BASE_URL)
-				.addConverterFactory(StringConverterFactory.create())
-				.addConverterFactory(JsonConverterFactory.create())
-				.addConverterFactory(FastJsonConvertFactory.create());
+					.addConverterFactory(StringConverterFactory.create())
+					.addConverterFactory(JsonConverterFactory.create())
+					.addConverterFactory(FastJsonConvertFactory.create());
 						
 ```
 三者可共同使用,根据传入的类型返回相应的类型。
